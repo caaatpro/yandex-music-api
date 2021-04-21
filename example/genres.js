@@ -3,7 +3,7 @@ var YandexMusicApi = require('../lib/yandex-music-api'),
 
 var api = new YandexMusicApi();
 
-api.init(config.user)
+api.authWithCredentials(config.user)
     .then(function() {
         return api.getGenres().then(function(genres) {
             console.log('Music genres:')
@@ -28,7 +28,7 @@ api.init(config.user)
                         console.log('    >' + genreTitle + ' (tracks: ' + subGenre.tracksCount + ')');
                     })
                 }
-                
+
             })
         });
     })

@@ -3,7 +3,7 @@ var YandexMusicApi = require('../lib/yandex-music-api'),
 
 var api = new YandexMusicApi();
 
-api.init(config.user)
+api.authWithCredentials(config.user)
     .then(function(token) {
         console.log('uid: ' + token.uid);
         console.log('token: ' + token.access_token);
