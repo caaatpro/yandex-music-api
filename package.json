@@ -4,11 +4,11 @@
   "homepage": "https://github.com/itsmepetrov/yandex-music-api",
   "description": "A Node.js wrapper for the Yandex.Music API (Unofficial) http://music.yandex.ru",
   "main": "lib/yandex-music-api.js",
-  "author": "Anton Petrov",
+  "author": "Andrey Rudykh",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/itsmepetrov/yandex-music-api.git"
+    "url": "https://github.com/caaatpro/yandex-music-api.git"
   },
   "keywords": [
     "yandex",
